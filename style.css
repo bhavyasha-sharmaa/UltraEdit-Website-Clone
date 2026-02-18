@@ -1,0 +1,138 @@
+*{
+    margin:5px;
+    padding:5px;
+}
+nav{
+    list-style:none;
+    margin:0px;
+    padding: 0px;
+    width:100%;
+}
+ul li{
+    list-style:none;
+    display:inline-flex;
+    justify-content:space-around;
+    align-items:space-around;
+    
+}
+.nav-item{
+    display:flex;
+    justify-content:space-around;
+    align-items:space-around;
+    padding:50px;
+    /* width:200px; */
+}
+.nav-item1{
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    padding:50px;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    font-size:30px;
+}
+.image{
+    margin:0px 0px;
+    padding:0px 0px;
+}
+img{
+    height:100px;
+    width:200px;
+    display:list-item;
+    flex-direction:row;
+    justify-content:center;
+    align-items:flex-start;
+    margin:-39px 238px;
+}
+.img2{
+    height:200px;
+    width:300px;
+    white-space:nowrap;
+}
+.heading{
+    white-space:nowrap;
+    text-align:left;
+    margin:41px -331px;
+    font-size:4em;
+    font-weight:lighter;
+}
+p{
+    white-space:nowrap;
+    display:flex;
+    justify-content:right;
+    align-content:right;
+}
+.divv{
+    display:flex;
+    justify-content:left;
+    align-content:left;
+}
+.sec{
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap:1rem 1rem;
+    justify-content:space-around;
+    align-items:space-around;
+    text-align:center;
+}
+span{
+    border:3px solid rgb(252, 250, 250);
+    background-color:rgb(234, 232, 232);
+    height:200px;
+    justify-content:space-around;
+    align-items:space-around;
+    text-align:center;
+    padding:5px;
+    width:500px;
+}
+.btn1{
+    background-color:rgb(12, 42, 189);
+    border:3px solid rgb(12, 42, 189);
+    border-radius:2cqh;
+    padding:10px;
+    font-size:20px;
+    font-weight:lighter;
+    color:white;
+}
+.btn2{
+    background-color:rgb(73, 161, 70);
+    border:3px solid rgb(73, 161, 70);
+    border-radius:2cqh;
+    padding:10px;
+    font-size:20px;
+    font-weight:lighter;
+}
+button:hover{
+    background-color:rgb(168, 156, 156);
+}
+main{
+    justify-content:center;
+    align-items:center;
+}
+@media (max-width:400px){
+    .sec{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+
+
